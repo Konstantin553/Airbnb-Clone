@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 36px;
+  box-shadow: 0px 0.98256px 0.4564px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 255);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.nav--logo {
+  max-width: 100px;
+  max-height: 32px;
+  margin-top: 5px;
+  margin-left: 45px;
+}
+
+.nav--text {
+  margin-right: 45px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.hero {
+  margin: 0 0 0 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.hero--images {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero--photo {
+  max-width: 590px;
+  align-self: center;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.hero--header {
+  font-size: 32px;
+  margin: 32px 0 16px;
+}
+
+.hero-badge {
+  font-size: 13px;
+  top: 40px;
+  left: 25px;
+  color: white;
+  font-weight: 100;
+  position: relative;
+}
+
+.image-text {
+  max-width: 235px;
+  max-height: 52px;
+  font-size: 26px;
+  display: inline;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 25px;
+  color: white;
+}
+
+.cards-list {
+  margin: 0 60px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.card--container {
+  margin: 0 0 0 20px;
+}
+
+.card {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--header {
+  font-size: 22px;
+  margin: 40px 0 20px 80px;
+}
+
+.card--image {
+  width: 100%;
+  width: 210px;
+  height: 283px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--title {
+  margin: 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.card--price {
+  margin-top: auto;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
