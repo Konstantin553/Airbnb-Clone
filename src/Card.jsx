@@ -14,7 +14,7 @@ export default function Card(props) {
     <section className="card--container">
       <div className="card">
         {badgeText && <div className="card--badge">{badgeText}</div>}
-        <img src={`/public/${props.coverImg}`} className="card--image" />
+        <img src={`/${props.coverImg}`} className="card--image" />
         <div className="card--stats">
           <FontAwesomeIcon icon={faStar} />
           <span>{props.stats.rating}</span>
