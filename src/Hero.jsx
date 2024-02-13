@@ -8,17 +8,17 @@ export default function Hero() {
         <div className="photo-text">
           <div className="hero-badge">Collection</div>
           <h2 className="image-text">Most popular around the world</h2>
-          <img src="/public/most-popular.png" className="hero--photo" />
+          <img src="/most-popular.png" className="hero--photo" />
         </div>
         <div className="photo-text">
           <div className="hero-badge">Collection</div>
           <h2 className="image-text">Easy for itinerary planning</h2>
-          <img src="/public/easy-planning.png" className="hero--photo" />
+          <img src="/easy-planning.png" className="hero--photo" />
         </div>
         <div className="photo-text">
           <div className="hero-badge">Collection</div>
           <h2 className="image-text">Great for team building</h2>
-          <img src="/public/teambuilding.png" className="hero--photo" />
+          <img src="/teambuilding.png" className="hero--photo" />
         </div>
       </div>
     </section>
